@@ -1,0 +1,630 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+html{
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.menu{
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.logo{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header{
+width: 100%;
+padding: 10px 4%;
+position: fixed;
+top: 0;
+left: 0;
+transition: .2s;
+background-color: black;
+
+}
+
+header.rolar{
+    background-color:black;
+    padding: 15px 4%;
+}
+
+header.rolar a, header.rolar i{
+    color: rgb(248, 247, 248);
+}
+
+header i{
+    font-size: 30px;
+ color: aliceblue;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0px 90px;
+}
+
+header ul li a{
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: black;
+}
+
+header ul li a:hover{
+    background-color: blueviolet;
+}
+
+.menui{
+    display: flex;
+    justify-content: space-around;
+flex-direction: row;
+align-items: baseline;
+}
+.Cadastro{
+    width: 75%;
+    height: 90vh;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Cadastro h1{
+    font-size: 25px;
+    color: black;
+border-color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.produtos{
+    width: 75%;
+    height: 90vh;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.produtos h1{
+    font-size: 25px;
+    color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tenis{
+    display: flex;
+    justify-content: space-around;
+flex-direction: row;
+align-items: baseline;
+}
+
+.vans {
+
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.adidas {
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dior{
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tenis1{
+    display: flex;
+    justify-content: space-around;
+flex-direction: row;
+align-items: baseline;
+}
+
+.allstar{
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tesla{
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.adidaspro{
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tenis2{
+    display: flex;
+    justify-content: space-around;
+flex-direction: row;
+align-items: baseline;
+}
+
+.court{
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.puma{
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.airforce{
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalogo{
+    display: flex;
+    justify-content: space-around;
+flex-direction: row;
+align-items: baseline;
+}
+
+.camisetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    border: 5px solid black;
+
+}
+
+.calcas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalogo1{
+    display: flex;
+    justify-content: space-around;
+flex-direction: row;
+align-items: baseline;
+}
+
+.tenis0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.moletom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.moletom1, .moletom2, .moletom3{
+    display: flex;
+    justify-content: space-around;
+flex-direction: row;
+align-items: baseline;
+}
+
+.mnikeb, .mnikep, .mdgv, .madidasvq, .madidasl, .madidasu, .mvans, .mhackett, .hurley{
+    width: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.camiseta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.camiseta1, .camiseta2, .camiseta3{
+    display: flex;
+    justify-content: space-around;
+flex-direction: row;
+align-items: baseline;
+}
+
+.cadidas{
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.cadidasp{
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.cadidasb{
+width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.cvansb{
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.cvansr{
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.cvansrx{
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.cverde{
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.cpreta{
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.czoro{
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.calcas1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.calcas2, .calcas3, .calcas4{
+    display: flex;
+    justify-content: space-around;
+flex-direction: row;
+align-items: baseline;
+
+}
+
+.ccpreta, .ccazul, .ccbege, .ccverde, .ccjeans, .cbjeans{
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+} 
+
+.cbjeansp{
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.csocial{
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.cxadrez{
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.posição{
+    display: flex;
+    justify-content: space-around;
+flex-direction: row;
+align-items: center;
+}
+
+.cadidasp1{
+    border: 4px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.cadidasp2{
+
+    box-sizing: 2vh;
+    border: 2;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+}
+
+.cadidasp2 h2, .cadidasp2 h3, .cadidasp2 h4{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+}
+.cadidasp22{
+    width: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content:space-around; 
+}
+.comprar{
+    width: 220vh;
+    display: flex;
+    flex-direction:center;
+    align-items: center;
+    justify-content: center;  
+}
+
+.tamanhoT{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;   
+}
+.tamanhoT h1{
+    border: 1px solid black;
+    width: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around; 
+    font-size: 20px;
+}
+
+.cadidasp0{
+    border: 3px solid black;
+    box-sizing: 2vh;
+    border: 2;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+}
+.comprovante{
+    display: flex;
+    width: 200vh;
+    flex-direction:row-reverse;
+    justify-content: center;
+    align-items:flex-start;
+}
+.comprovante1{
+    width: 100vh;
+    border: 3px solid black;
+    box-sizing: 2vh;
+    border: 2;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+}
+ .comprovante1 h1{
+    font-size: 50px;
+ }
+.curiculo{
+    display: flex;
+    width: 210vh;
+    flex-direction:row-reverse;
+    justify-content: center;
+    align-items:end;
+}
+.curiculo1{
+    font-size: 30px;
+    width: 150vh;
+    border: 3px solid black;
+    box-sizing: 2vh;
+    border: 2;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+}
+
+.curiculo1 h2{
+
+    font-size: 25px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
+}
+
+.curiculo1 h2 input{
+    width: 10vh;
+}
+.curiculo1 h3{
+size: 30px;
+}
+
+html, body {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; }
+
+.footer {
+    background-color: black;
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+    border-top: 1px solid #e9ecef; 
+}
+
+.footer a {
+    color: blueviolet;/
+    text-decoration:none;
+}
+
+.footer a:hover {
+    text-decoration: underline; 
+}
+
+.privacidade{
+    font-size: 20px;
+    width: 100%;
+    border: 3px solid black;
+    box-sizing: 2vh;
+    border: 2;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+
+}
+
+
+.sbnos{
+    font-size: 20px;
+    width: 100%;
+    border: 3px solid black;
+    box-sizing: 2vh;
+    border: 2;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+}
+
+.sbnos{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.banner{
+    font-size: 20px;
+    box-sizing: 2vh;
+    border: 2;
+    background-color:;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+}
+
+
+
+.abainicial{
+    display: flex;
+    width: 210vh;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:end;
+}
+
+.abainicial1, .abainicial2, .abainicial3{
+    width: 400px;
+    border: 3px solid black;
+    box-sizing: 30vh;
+    border: 2;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+}
